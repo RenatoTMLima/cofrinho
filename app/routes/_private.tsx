@@ -5,7 +5,7 @@ export default function PrivateLayout() {
   const { pathname } = useLocation();
 
   return (
-    <div className="min-h-screen w-full px-8 py-6">
+    <div className="min-h-screen w-full max-w-4xl mx-auto px-8 py-6">
       <header className="mb-4">
         <Tabs defaultValue={pathname}>
           <TabsList className="w-full grid grid-cols-2">
